@@ -1,10 +1,10 @@
 <?php
 
 // membutuhkan pemanggilan akses koneksi (mysql)
-// (DISI)
+require 'koneksi.php';
 
 // menjalankan sessions
-// (DISI)
+session_start();
 
 // check apakah session email sudah ada atau belum.
 // jika belum maka akan diredirect ke halaman index (login)
@@ -74,7 +74,7 @@ if (empty($_SESSION['uname'])) {
 <!-- Nav -->
 
 <header class="navbar navbar-dark sticky-top bg-dark">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#" style="background-color:#212529">LATIHAN API - WEB COEDOTZ</a>
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#" style="background-color:#212529">LATIHAN API - WEB FZSL666WARS</a>
 
     <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -91,14 +91,14 @@ if (empty($_SESSION['uname'])) {
                 <br>
                 <ul class="nav flex-column mb-2">
                     <li class="nav justify-content-center">
-                        <img src="img/coedotz.jpeg" alt="" height="180px">
+                        <img src="img/Fahri.jpg" alt="" height="180px">
                     </li>
                     <br>
                     <li class="nav-item">
-                        <p><strong>NAMA KALIAN</strong></p>
+                        <p><strong>Fahrijal Syawaludin</strong></p>
                     </li>
                     <li class="nav-item">
-                        <p>NIM KALIAN</p>
+                        <p>6706213040</p>
                     </li>
                     </li>
                 </ul>

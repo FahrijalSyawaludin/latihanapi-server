@@ -1,9 +1,9 @@
 <?php
 // membutuhkan pemanggilan akses koneksi (mysql)
-// (DISI)
+require 'koneksi.php';
 
 // menjalankan sessions
-// (DISI)
+session_start();
  
 // check apakah session email sudah ada atau belum.
 // jika belum maka akan diredirect ke halaman index (login)
@@ -28,7 +28,7 @@ if( empty($_SESSION['uname']) ){
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color: #212529;">
         <div class="container">
-            <a class="navbar-brand" href="index.php" style="color: white;">LATIHAN API - WEB COEDOTZ</a>
+            <a class="navbar-brand" href="index.php" style="color: white;">LATIHAN API - WEB FZSL666WARS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "gambar": "http:\/\/localhost\/latihanapi-server\/img\/18062022033611Yakuza Corporation.jpg",
+        "judul": "Yakuza Membabi Buta, Banzai !!!",
+        "deskripsi": "Yakuza berasal dari era Keshogunan Tokugawa (1603 \u2013 1868) yang terdiri dari dua kelompok orang-orang buangan yang berbeda. Kelompok pertama adalah tekiya, pengembara yang melakukan perjalanan dari desa ke desa, menjual barang-barang berkualitas rendah di festival dan pasar."
+    },
+    {
+        "id": "2",
+        "gambar": "http:\/\/localhost\/latihanapi-server\/img\/IMG_20190626_115938.jpg",
+        "judul": "Gunung",
+        "deskripsi": "Gunung adalah bagian kerak bumi yang lebih tinggi dari area di sekitarnya. Gunung biasanya memiliki sisi curam yang secara signifikan menyingkap batuan dasarnya."
+    }
+]
